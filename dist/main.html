@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="design.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="calculator" class="position">
+
+    <input id="screeen" readonly>
+
+    <div id="keys" class="position">
+        <button onclick="appendToScreeen('+')">+</button>
+        <button onclick="appendToScreeen('7')">7</button>
+        <button onclick="appendToScreeen('8')">8</button>
+        <button onclick="appendToScreeen('9')">9</button>
+        <button onclick="appendToScreeen('-')">-</button>
+        <button onclick="appendToScreeen('4')">4</button>
+        <button onclick="appendToScreeen('5')">5</button>
+        <button onclick="appendToScreeen('6')">6</button>
+        <button onclick="calculate('=')">=</button>
+        <button onclick="appendToScreeen('1')">1</button>
+        <button onclick="appendToScreeen('2')">2</button>
+        <button onclick="appendToScreeen('3')">3</button>
+        <button onclick="calculate('')"></button>
+        <button onclick="appendToScreeen('0')">0</button>
+        <button onclick="clearscreeen('C')">C</button>
+    </div>
+
+
+</div>
+
+<script src="index.js">
+// const screen = document.getElementById("screen")
+
+//     function appendToScreen(input){
+//         screen.value += input;
+//     }
+
+//     function clearscreen(){
+//         screen.value ="";
+//     }
+
+//     function calculate(input){
+//         screen.value = eval(screen.value);
+//     }
+
+</script>
+
+</body>
+</html>
