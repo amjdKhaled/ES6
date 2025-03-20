@@ -1,5 +1,5 @@
 button{
-    position: static;
+    position: relative;
     width:100px;
     height: 100px;
     border:none;
@@ -37,6 +37,8 @@ button:active{
 
 }
 
+
+
 #screeen{
     
     width:488px;
@@ -49,9 +51,15 @@ button:active{
     color:white;
 }
 
-body{
-    margin-top:100px;
-    display:flex;
-    justify-content: center;
+.all{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+body{
+
+    
+    
 }
